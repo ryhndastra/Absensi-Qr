@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ABSENSIQR</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="password">********</string>
+    <string name="login">Login</string>
 </resources>
