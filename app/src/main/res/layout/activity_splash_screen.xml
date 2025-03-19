@@ -15,7 +15,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logoabsen"
-        tools:layout_editor_absoluteY="121dp" />
+        tools:layout_editor_absoluteY="121dp"
+        tools:ignore="MissingConstraints"
+        android:importantForAccessibility="no" />
 
     <TextView
         android:id="@+id/textView"
@@ -23,9 +25,9 @@
         android:layout_height="83dp"
         android:layout_marginTop="144dp"
         android:fontFamily="sans-serif-black"
-        android:text="Absensi Kuliah Universitas WIdyatama"
+        android:text="@string/absensi_kuliah_universitas_widyatama"
         android:textAlignment="center"
-        android:textColor="#FF9800"
+        android:textColor="#EF6C00"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,5 +35,6 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
