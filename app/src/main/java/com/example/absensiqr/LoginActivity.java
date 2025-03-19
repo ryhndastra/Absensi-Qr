@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
             return insets;
         });
 
+        //ipsia
         Button btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(view -> {
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
